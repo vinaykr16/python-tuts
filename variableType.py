@@ -28,3 +28,23 @@ print("age",age+1)
 print("int data type",type(age))
 print("float data type",type(height))
 print("string data type",type(name))
+
+#dynamic typing
+x=10
+print("x",x)
+x="vinay"
+print("x",x)
+
+nothing=None
+print("nothing",type(nothing))
+
+#type conversion and type casting
+#1. Implicit type conversion
+x=10
+y=5.5
+z=x+y
+e=int("7")  # forcefully convert string to int
+print("x",type(x))
+print("y",type(y))
+print("z",type(z))
+print("e",type(e))
